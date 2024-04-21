@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .slider-container {
+    display: grid;
+    place-items: center;
+    max-width: 1200px;
+  }
+  
+  .movie-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movie-card h5 {
+    margin-top: 10px;
+  }
+  
+  .movie-card p {
+    margin-bottom: 5px;
+  }
+  
+  .movie-card .btn {
+    margin-top: 10px;
+  }
+  
+  .slick-slider {
+    width: 100%;
+    max-width: 900px;
+  }
+  
